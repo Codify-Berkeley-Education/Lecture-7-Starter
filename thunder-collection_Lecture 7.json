@@ -1,0 +1,183 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Lecture 7",
+    "dateExported": "2023-10-25T01:30:24.243Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f64bc75a-360e-4fa3-8278-295b5ea4271e",
+            "colId": "f9ad016f-22e4-4727-8ece-41139c7ffbe0",
+            "containerId": "",
+            "name": "localhost:3000/api/todos",
+            "url": "localhost:3000/api/todos",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-10-25T01:24:23.117Z",
+            "modified": "2023-10-25T01:24:23.117Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [
+                {
+                    "name": "limit",
+                    "value": "",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "completed",
+                    "value": "",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "3519ac42-2dd8-40c3-a5c6-440070a0b198",
+            "colId": "f9ad016f-22e4-4727-8ece-41139c7ffbe0",
+            "containerId": "",
+            "name": "localhost:3000/api/todos",
+            "url": "localhost:3000/api/todos",
+            "method": "POST",
+            "sortNum": 22500,
+            "created": "2023-10-25T01:25:50.118Z",
+            "modified": "2023-10-25T01:26:59.261Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"priortiy\": 1,\n  \"content\": \"string\",\n  \"completed\": true,\n  \"listId\": 1\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ffa53316-1553-4c85-8397-c41434ce72df",
+            "colId": "f9ad016f-22e4-4727-8ece-41139c7ffbe0",
+            "containerId": "",
+            "name": "localhost:3000/api/todos/[id]",
+            "url": "localhost:3000/api/todos/[id]",
+            "method": "PATCH",
+            "sortNum": 25000,
+            "created": "2023-10-25T01:27:34.771Z",
+            "modified": "2023-10-25T01:28:52.024Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"priortiy\": 1,\n  \"content\": \"string\",\n  \"completed\": true,\n  \"listId\": 1\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "270bf3c4-83b5-4560-b8e5-768ebaefd5f1",
+            "colId": "f9ad016f-22e4-4727-8ece-41139c7ffbe0",
+            "containerId": "",
+            "name": "localhost:3000/api/todos/[id]",
+            "url": "localhost:3000/api/todos",
+            "method": "GET",
+            "sortNum": 27500,
+            "created": "2023-10-25T01:28:12.093Z",
+            "modified": "2023-10-25T01:28:12.093Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [
+                {
+                    "name": "limit",
+                    "value": "",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "completed",
+                    "value": "",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "bffca562-89d2-4076-8556-8f48a1a00ead",
+            "colId": "f9ad016f-22e4-4727-8ece-41139c7ffbe0",
+            "containerId": "",
+            "name": "localhost:3000/api/todos/[id]",
+            "url": "localhost:3000/api/todos",
+            "method": "DELETE",
+            "sortNum": 28750,
+            "created": "2023-10-25T01:29:05.028Z",
+            "modified": "2023-10-25T01:29:39.984Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [
+                {
+                    "name": "limit",
+                    "value": "",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "completed",
+                    "value": "",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}
