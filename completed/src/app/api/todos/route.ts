@@ -5,9 +5,11 @@ const prisma = new PrismaClient();
 
 // Get all todos
 // User query params to sort and filter
-// limit limits the number of todos returned
-// completed filters by completed
+// limit: limits the number of todos returned
+// completed: filters by completed, if null return all, otherwise return only completed or not completed
+// todo sort by priority
 export async function GET(request: NextRequest) {
+  // Get the search params from the url
   const searchParams = request.nextUrl.searchParams;
   // each of these search params will be null if they don't exist
   const limit = searchParams.get("limit");
@@ -29,7 +31,7 @@ export async function GET(request: NextRequest) {
 }
 
 // Create a new todo
-// Validate the input with a zod
+// Validate the input with zod
 const todoSchema = z.object({
   priority: z.number(),
   content: z.string(),
